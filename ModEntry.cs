@@ -45,7 +45,6 @@ namespace NoCollision
             if (!Context.IsWorldReady)
                 return;
 
-            // Use the clean approach from the example code
             Utility.ForEachCharacter(character =>
             {
                 // Check each character type and apply settings based on config
